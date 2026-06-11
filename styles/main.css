@@ -48,7 +48,7 @@ div {
   vertical-align: middle;
   width: 50%;
   border-radius: 10px;
-  height: 300px;
+  height: auto;
   padding: 15px;
   overflow-x: auto;
   
