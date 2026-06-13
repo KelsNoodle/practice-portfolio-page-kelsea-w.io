@@ -72,6 +72,11 @@ div {
     flex-direction: column-reverse;
 }
 
+.PWHL {
+    color:#dcccb3;
+    text-shadow: 1px 1px #ff5555;
+}
+
 .plain-text {
       text-decoration: none;
       color: inherit;
@@ -126,14 +131,15 @@ div {
   border-radius: 10px;
   height:auto;
   overflow-x: auto;
-  
+  padding-bottom: 5px;
+  padding-right: 5px;
 }
 
 
 .glow-on-hover {
     width: 220px;
     height: 50px;
-    border: none;
+    border: 1px solid black;
     outline: none;
     color: #fff;
     background: hsla(0, 0%, 21%, 0.473);
