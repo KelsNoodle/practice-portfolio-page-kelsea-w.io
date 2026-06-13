@@ -5,6 +5,8 @@ body {
     background-repeat:repeat;
     font-family: Helvetica, sans-serif, Arial;
     color:rgb(255, 255, 255);
+    flex-direction: column;
+    padding:  10px;
 }
 
 h1{
@@ -24,7 +26,7 @@ ul {
 }
 
 li {
-    padding-left:45px;
+    padding-left:40px;
 }
 
 table{
@@ -63,18 +65,12 @@ div {
     animation: wiggle 1.5s infinite;
     border-radius: 50px;
     cursor: pointer;
-    justify-self: end;
-    align-self:flex-end;
+    justify-self:end;
     justify-content: center;
     align-items: center;
     font-size:x-large;
     font-weight: bolder;
     flex-direction: column-reverse;
-}
-
-.PWHL {
-    color:#dcccb3;
-    text-shadow: 1px 1px #ff5555;
 }
 
 .plain-text {
@@ -87,6 +83,11 @@ div {
   25%  {right: 10px;}
   75%  {right: 0px}
   100% {right: 5px;}
+}
+
+.PWHL {
+    color:#dcccb3;
+    text-shadow: 1px 1px #ff5555;
 }
 
 #textbox:target {
@@ -113,8 +114,8 @@ div {
   width:fit-content;
   border-radius: 20px;
   height: auto;
-  padding: 15px;
   overflow-x: auto;
+  padding: 15px;
   
 }
 
@@ -200,4 +201,12 @@ div {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+
+#weather-widget {
+    padding: 0px;
+    position: relative;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    z-index: -1;
 }
